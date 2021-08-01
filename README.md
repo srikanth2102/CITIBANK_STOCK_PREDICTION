@@ -31,6 +31,10 @@
 
 ## LSTM ARCHITECTURE 
 ![lstm](https://i.ibb.co/0tBv9XL/Capture.jpg)
+* We make use of two LSTM layers followed by a Dense layer.
 
 ## MODEL PERFORMANCE
 ![LSTM](https://i.ibb.co/hWBSqqS/Capture.jpg)
+* From this we can see that our LSTM model makes accurate predictions on the stock price.
+* Green is the actual price while Orange is the predicted price.
+* The predicted and actual price are nearly the same.
