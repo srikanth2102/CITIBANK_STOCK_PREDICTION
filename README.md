@@ -31,11 +31,11 @@
 * We make use of two LSTM layers followed by a Dense layer.
 
 ## MOVING AVERAGE PERFORMANCE
-* ![moving avg](https://i.ibb.co/6bn8n22/MOVING-AVG.jpg)
+* ![moving avg](https://i.ibb.co/Q8vNRqS/MOVING-AVG.jpg)
 * From this we can see that the prediction using the moving average doesnt seem to work very well.
 
 ## LSTM MODEL PERFORMANCE
-![LSTM](https://i.ibb.co/tx5S4Jp/lstm.jpg)
+![LSTM](https://i.ibb.co/fG16sTS/lstm.jpg)
 * From this we can see that our LSTM model makes accurate predictions on the stock price.
 * Green is the predicted price while Orange is the actual price.
 * The predicted and actual price are nearly the same.
