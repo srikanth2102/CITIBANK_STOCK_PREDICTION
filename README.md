@@ -37,5 +37,5 @@
 ## LSTM MODEL PERFORMANCE
 ![LSTM](https://i.ibb.co/tx5S4Jp/lstm.jpg)
 * From this we can see that our LSTM model makes accurate predictions on the stock price.
-* Green is the actual price while Orange is the predicted price.
+* Green is the predicted price while Orange is the actual price.
 * The predicted and actual price are nearly the same.
