@@ -1,14 +1,13 @@
-# FIDELITY STOCK PRICE PREDICTION
+# CITIGROUP STOCK PRICE PREDICTION
 
 ## OVERVIEW
-* In this project we try to predict the price of Fidelity National Financial Inc.
+* In this project we try to predict the price of Citigroup Inc.
 * In this project we make use of LSTM recurrent neural network to make time series forecasting.
 
 ## DATASET
-* I downloaded this data from [yahoo_finance.](https://in.finance.yahoo.com/)
-* I downloaded the data since 1.08.2016.
-* You can access the data i used by downloading the file named FNF.csv. 
-* You can also download up to date data from [here.](https://in.finance.yahoo.com/quote/FNF/history?p=FNF)
+* I downloaded this data from [yahoo_finance.](https://in.finance.yahoo.com/quote/C/history?p=C)
+* I downloaded the data since 2.08.2016.
+* You can access the data i used by downloading the file named CitiBank.csv. 
 
 ## ATTRIBUTES DESCRIPTION
 
@@ -25,15 +24,18 @@
 ## TECHNIQUES USED
 
 * Moving Average
-* Auto ARIMA
 * LSTM model
 
 ## LSTM ARCHITECTURE 
 ![lstm](https://i.ibb.co/0tBv9XL/Capture.jpg)
 * We make use of two LSTM layers followed by a Dense layer.
 
-## MODEL PERFORMANCE
-![LSTM](https://i.ibb.co/hWBSqqS/Capture.jpg)
+## MOVING AVERAGE PERFORMANCE
+* ![moving avg](https://i.ibb.co/6bn8n22/MOVING-AVG.jpg)
+* From this we can see that the prediction using the moving average doesnt seem to work very well.
+
+## LSTM MODEL PERFORMANCE
+![LSTM](https://i.ibb.co/2sYM1ZB/lstm.jpg)
 * From this we can see that our LSTM model makes accurate predictions on the stock price.
 * Green is the actual price while Orange is the predicted price.
 * The predicted and actual price are nearly the same.
