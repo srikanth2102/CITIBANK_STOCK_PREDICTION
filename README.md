@@ -35,7 +35,7 @@
 * From this we can see that the prediction using the moving average doesnt seem to work very well.
 
 ## LSTM MODEL PERFORMANCE
-![LSTM](https://i.ibb.co/2sYM1ZB/lstm.jpg)
+![LSTM](https://i.ibb.co/tx5S4Jp/lstm.jpg)
 * From this we can see that our LSTM model makes accurate predictions on the stock price.
 * Green is the actual price while Orange is the predicted price.
 * The predicted and actual price are nearly the same.
