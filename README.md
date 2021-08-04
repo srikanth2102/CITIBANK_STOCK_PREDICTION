@@ -1,7 +1,7 @@
 # CITIGROUP STOCK PRICE PREDICTION
 
 ## OVERVIEW
-* In this project we try to predict the price of Citigroup Inc.
+* In this project we predict the price of Citigroup Inc.
 * In this project we make use of LSTM recurrent neural network to make time series forecasting.
 
 ## DATASET
